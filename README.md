@@ -30,5 +30,5 @@ terraform apply -var external_ip=$(./scripts/get-external-ip) -var-file=variable
 Example crontab entry (update ip every 30 minutes),
 note the `-input=false` is required to skip interactive approval of plan before applying.
 ```cron
-*/30 * * * * cd /home/me/terraform-cloudflare && terraform apply -input=false -var external_ip=$(./scripts/get-external-ip) -var-file variables.json
+*/30 * * * * cd /home/me/terraform-cloudflare && /usr/local/bin/terraform apply -input=false -var external_ip=$(./scripts/get-external-ip) -var-file variables.json
 ```

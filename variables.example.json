@@ -1,0 +1,15 @@
+{
+  "cloudflare_zone": "",
+  "cloudflare_email": "",
+  "cloudflare_token": "",
+  "cloudflare_records": [
+    {
+      "name": "foo",
+      "proxied": true
+    },
+    {
+      "name": "bar",
+      "proxied": false
+    }
+  ]
+}

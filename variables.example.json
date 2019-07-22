@@ -1,14 +1,14 @@
 {
-  "cloudflare_zone": "",
+  "cloudflare_zone": "foo.com",
   "cloudflare_email": "",
   "cloudflare_token": "",
   "cloudflare_records": [
     {
-      "name": "foo",
+      "name": "foo.foo.com",
       "proxied": true
     },
     {
-      "name": "bar",
+      "name": "bar.foo.com",
       "proxied": false
     }
   ]
